@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+}
+
+
+.container{
+  max-width: 918px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+}
+
+.box{
+  padding: 48px;
+  max-width: 307px;
+}
+.box-1{
+  background-color: hsl(31, 77%, 52%);
+}
+
+.box-2{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.box-3{
+  background-color: hsl(179, 100%, 13%);
+}
+
+.icon {
+  display: block;
+  padding-bottom: 42px;
+}
+
+h2{
+  padding-bottom: 39px;
+  font-family: 'Big Shoulders Display';
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+}
+
+p{
+  padding-bottom: 2rem;
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+  width: 146px;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid white;
+  font-family: 'Lexend Deca';
+  background-color: hsl(0, 0%, 95%);
+}
+
+#btn1:hover{
+  cursor: pointer;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+
+#btn2:hover{
+  cursor: pointer;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+
+#btn3:hover{
+  cursor: pointer;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
+
+#btn1{
+  color: hsl(31, 77%, 52%);
+}
+
+#btn2{
+  color: hsl(184, 100%, 22%);
+}
+
+#btn3{
+  color: hsl(179, 100%, 13%);
+}
+
+
+@media only screen and (max-width:921px){
+
+  body{
+    height: unset;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    padding: 88px 0;
+  }
+
+  .container{
+    max-width: 327px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: block;
+  }
+
+  .box{
+    padding: 48px;
+  }
+
+  .box-1{
+    background-color: hsl(31, 77%, 52%);
+  }
+
+  .box-2{
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  .box-3{
+    background-color: hsl(179, 100%, 13%);
+  }
+
+  .icon {
+    display: block;
+    padding-bottom: 42px;
+  }
+
+  h2{
+    padding-bottom: 39px;
+    font-family: 'Big Shoulders Display';
+    font-size: 40px;
+    color: hsl(0, 0%, 95%);
+  }
+
+  p{
+    padding-bottom: 2rem;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+
+  button{
+    width: 146px;
+    height: 48px;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-family: 'Lexend Deca';
+    background-color: hsl(0, 0%, 95%);
+  }
+
+  #btn1{
+    color: hsl(31, 77%, 52%);
+  }
+
+  #btn2{
+    color: hsl(184, 100%, 22%);
+  }
+
+  #btn3{
+    color: (179, 100%, 13%);
+  }
+}
